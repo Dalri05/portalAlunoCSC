@@ -1,7 +1,7 @@
 {
   "name": "px-html",
   "version": "1.0.0",
-  "description": "",
+  "description": "### 1. Prerequisite",
   "scripts": {
     "start": "gulp dev",
     "build": "gulp build",
@@ -10,19 +10,24 @@
     "deploy": "gulp deploy"
   },
   "keywords": [],
-  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.27.10",
-    "yargs": "^17.5.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-file-include": "./src/dev/gulp-file-include",
+    "gulp-file-include": "^2.3.0",
     "gulp-filter-each": "^1.0.1",
+    "gulp-postcss": "^9.0.1",
     "gulp-pretty-html": "^2.0.10",
     "gulp-sass": "^5.1.0",
     "gulp-shell": "^0.8.0",
-    "gulp-postcss": "^9.0.1",
     "sass": "^1.52.0",
-    "through2": "^4.0.2"
+    "through2": "^4.0.2",
+    "yargs": "^17.5.1"
+  },
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flatpickr": "^4.6.13"
   }
 }
