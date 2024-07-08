@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     openMenuBtn.addEventListener('click', function() {
         if (sidebar.style.display === 'block') {
             sidebar.style.display = 'none'; 
-            openMenuBtn.textContent = 'Abrir Menu';
+            openMenuBtn.textContent = 'Abrir quadro';
         } else {
             sidebar.style.display = 'block';
             openMenuBtn.textContent = 'Sair do Menu';
